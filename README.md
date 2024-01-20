@@ -60,8 +60,21 @@ The Student Table Management System is a web application built using React that 
 ![Student Table](./images/studenttable.jpeg)
 *Student Table with dynamic result and grade calculation*
 
-![Add Student Modal](./images/images/add-student)
+
+![Add Student Modal](./images/adding-student.jpeg)
 *Modal for adding or editing student information*
+
+
+![Delete Student Modal](./images/delete-student.jpeg)
+*Modal for deleting student from table*
+
+
+![Edit Student Modal](./images/edit-student.jpeg)
+*Modal for editing student details*
+
+
+![Other Routes](./images/route.jpeg)
+*other Routes*
 
 ## Contributing
 
