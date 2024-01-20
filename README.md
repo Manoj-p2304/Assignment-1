@@ -28,13 +28,13 @@ The Student Table Management System is a web application built using React that 
 1. Clone the repository to your local machine:
 
     ```bash
-    git clone https://github.com/your-username/student-table-management.git
+    git clone https://github.com/Manoj-p2304/Assignment-1.git
     ```
 
 2. Navigate to the project directory:
 
     ```bash
-    cd student-table-management
+    cd Assignment-1
     ```
 
 3. Install dependencies:
