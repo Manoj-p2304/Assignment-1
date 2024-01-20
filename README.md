@@ -8,8 +8,6 @@ A simple React application for managing student information, including their nam
 - [Installation](#installation)
 - [Usage](#usage)
 - [Screenshots](#screenshots)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
@@ -76,10 +74,4 @@ The Student Table Management System is a web application built using React that 
 ![Other Routes](./images/route.jpeg)
 *other Routes*
 
-## Contributing
 
-Contributions are welcome! Please follow the [contribution guidelines](CONTRIBUTING.md) before submitting a pull request.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
