@@ -1,0 +1,145 @@
+/* Sidebar.css */
+
+.sidebar {
+  width: 220px;
+  height: 100%;
+  background-color: #333;
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+
+
+
+
+.sidebar a {
+  top: -10%;
+  position: relative;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  margin-bottom: 15px;
+}
+
+.sidebar a svg {
+  margin-right: 10px;
+  width: 20px; /* Set the width for your icons */
+  height: 20px; /* Set the height for your icons */
+}
+
+.sidebar a:hover {
+  color: #61dafb;
+}
+
+
+/* Sidebar.css */
+
+.sidebar {
+  width: 220px;
+  height: 100%;
+  background-color: #333;
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align items to the left */
+}
+
+.sidebar img {
+  width: 100px;
+  position: relative;
+  margin-bottom: 20px;
+  top: -10%;
+  left: 24%;
+}
+
+.sidebar h1 {
+  font-size: 1.5em;
+  top: -13%;
+  left: 5%;
+  position: relative;
+  margin-bottom: 10px; /* Adjusted margin for better spacing */
+  padding-bottom: 10px; /* Add some padding to space the line from the text */
+  border-bottom: 1px solid rgb(0, 0, 0); /* Add a line below the heading */
+}
+
+.sidebar a {
+  display: flex;
+  align-items: center;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  margin-bottom: 15px;
+}
+
+.sidebar a svg {
+  margin-right: 10px;
+  width: 20px; /* Set the width for your icons */
+  height: 20px; /* Set the height for your icons */
+}
+
+.sidebar a span {
+  flex-grow: 1; /* Make the text take up all available space */
+}
+
+.sidebar a:hover {
+  color: #61dafb; /* Change color on hover if needed */
+}
+
+
+
+/* Sidebar.css */
+
+.sidebar {
+  width: 220px;
+  height: 100%;
+  background-color: #333;
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align items to the left */
+}
+
+.sidebar img {
+  width: 100px; /* Set the width for your logo */
+  margin-bottom: 20px;
+}
+
+.sidebar h1 {
+  font-size: 1.5em;
+  margin-bottom: 30px;
+}
+
+.sidebar a {
+  position: relative;
+  display: flex;
+  top: -13%;
+  align-items: center;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  margin-bottom: 15px;
+  padding: 10px; /* Add padding to create space above and below */
+}
+
+.sidebar a svg {
+  margin-right: 10px;
+  width: 20px; /* Set the width for your icons */
+  height: 20px; /* Set the height for your icons */
+}
+
+.sidebar a span {
+  flex-grow: 1; /* Make the text take up all available space */
+}
+
+.sidebar a:hover {
+  font-weight: bold;
+  color: #36d3ff; /* Change color on hover if needed */
+  background-color: rgba(97, 218, 251, 0.2); /* Add a background color */
+  border-radius: 5px; /* Add rounded corners for a box effect */
+}

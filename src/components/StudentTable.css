@@ -1,0 +1,334 @@
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    width: 80%;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+
+  
+  thead {
+    background-color: #3498db;
+    color: #fff;
+  }
+  
+  th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  tbody tr:hover {
+    background-color: #e6e3e3;
+    cursor: pointer;
+  }
+  
+  td:last-child {
+    text-align: center;
+  }
+  
+  button {
+    padding: 8px 16px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  form {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+  }
+  
+  input {
+    width: 100%;
+    border-radius: 19px;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+  }
+  
+  button[type="submit"] {
+    background-color: #29bb66;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #27ae60;
+  }
+  
+
+
+  /* StudentTable.css */
+
+.modal {
+  
+    display: block;
+    border-radius: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+  }
+  
+  .modal-content {
+    background: #fff;
+    margin: 10% auto;
+    border-radius: 50px;
+    padding: 20px;
+    border: 1px solid #333;
+    width: 50%;
+  }
+  
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  
+  .div1 h2{
+    position: relative;
+    top: 5px;
+  }
+
+  .btn1{
+    position: relative;
+    left: 89%;
+    border-radius: 10px;
+    top: -157px;
+  }
+
+  .div1 button{
+    
+    border-radius: 50px;
+  }
+
+
+
+  /* StudentTable.css */
+
+  .div1 {
+    position: absolute;
+  top: 0%;
+  left: 23%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start; /* Set both align-items and justify-content to flex-start */
+}
+
+  
+  .btn1 {
+    top: -40px;
+    background-color: #0db1ca;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    width: 20%;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn1:hover {
+    background-color: #45a049;
+  }
+  
+  /* Table Styling */
+  table {
+    top: 10%;
+    width: 120%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #3a4a57;
+    color: white;
+  }
+  
+  /* Result Styling */
+ /* Styling for Result and Grade based on pass or fail */
+.passed {
+    border-radius: 10px;
+  color: #4caf50; /* Green color for passed */
+  font-weight: bold;
+}
+.ResultBox {
+    display: inline-block;
+    padding: 4px 8px;
+    background-color: green;
+    color: white;
+    border-radius: 35px;
+  }
+  .ResultBox1 {
+    display: inline-block;
+    padding: 4px 8px;
+    background-color: #ff0000;
+    color: white;
+    border-radius: 35px;
+  }
+  .ResultBox2 {
+    display: inline-block;
+    padding: 4px 8px;
+    background-color: rgb(31, 109, 154);
+    color: white;
+    border-radius: 35px;
+  }
+
+.failed {
+  color: #ff0000; /* Red color for failed */
+  font-weight: bold;
+}
+  
+  .Poor {
+    color: red;
+    font-weight: bold;
+  }
+  .modal-overlay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .modal-content {
+    background-color: #fefefe;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .close {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    cursor: pointer;
+    float: right;
+  }
+  
+  .close:hover {
+    color: #3a3838;
+  }
+  
+  .error {
+    color: red;
+    margin-bottom: 10px;
+  }
+  
+  .modal-form {
+    margin-top: 20px;
+  }
+  
+  .modal-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .cancel {
+    padding: 8px 16px;
+    background-color: #e74c3c; /* Red color for cancel button */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .cancel:hover {
+    background-color: #c0392b;
+  }
+  
+  .save {
+    padding: 8px 16px;
+    background-color: #2ecc71; /* Green color for save button */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .save:hover {
+    background-color: #27ae60;
+  }
+
+  .td-gap{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  
+
+
+  /* ... your existing styles ... */
+
+/* Grade Styling */
+.Excellent {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .Poor {
+    color: red;
+    font-weight: bold;
+  }
+  
+  .Average {
+    color: blue;
+    font-weight: bold;
+  }
+  
+
+
+  .span1{
+    font-weight: bold;
+  }

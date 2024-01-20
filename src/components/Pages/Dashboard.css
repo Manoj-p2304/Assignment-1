@@ -1,0 +1,71 @@
+/* src/App.css */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .app {
+    text-align: center;
+  }
+  
+  .app-header {
+    background-color: #282c34;
+    padding: 20px;
+    color: white;
+  }
+  
+  .app-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  .sidebar {
+    width: 250px;
+    left: 0%;
+    top: 0%;
+    height: 100%;
+    position: fixed;
+    background-color: #ffffff;
+    padding-top: 80px; /* Adjust the padding to accommodate the header */
+  }
+  
+  
+  .sidebar nav {
+    padding: 20px;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .main-content {
+    flex-grow: 1;
+  }
+  
+  .school-info,
+  .upcoming-events {
+    margin-bottom: 30px;
+  }
+  
+  .school-card {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .upcoming-events ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .upcoming-events li {
+    margin-bottom: 10px;
+  }
+  
